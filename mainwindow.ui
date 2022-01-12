@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Reosurces.qrc">
+    <normaloff>:/RESOURCES/klipartz.com (3).png</normaloff>:/RESOURCES/klipartz.com (3).png</iconset>
+  </property>
   <property name="animated">
    <bool>true</bool>
   </property>
@@ -131,7 +135,9 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="Reosurces.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>inCent</sender>
